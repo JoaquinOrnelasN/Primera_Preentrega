@@ -10,6 +10,6 @@ app.use(express.json());
 app.use('/api/products', productRoute);
 app.use('/api/carts', cartRoute);
 
-app.listen(8080, () => {
-    console.log('Server running on port 8080');
+app.listen(8000, () => {
+    console.log('Server running on port 8000');
 });
